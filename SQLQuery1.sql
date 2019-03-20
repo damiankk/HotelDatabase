@@ -1,5 +1,6 @@
+ 
 CREATE TABLE HOTEL(
-	IdHotelu INT NOT NULL IDENTITY(1,1) primary key,
+	idHotelu INT NOT NULL IDENTITY(1,1) primary key,
 	NumerHotelu INT,
 	Ulica varchar(60),
 	NumerUlica varchar(60),
@@ -16,7 +17,8 @@ CREATE TABLE STANOWISKO(
 );
 
 CREATE TABLE PRACOWNIK(
-	PESEL Varchar(11) NOT NULL primary key,
+	IdPracownika INT NOT NULL IDENTITY(1,1) primary key,
+	PESEL Varchar(11) NOT NULL,
 	Imie Varchar(60),
 	Nazwisko Varchar(60),
 	NumerTelefonu Varchar(60),
@@ -30,10 +32,10 @@ CREATE TABLE PRACOWNIK(
 
 CREATE TABLE DYZUR(
 	IdDyzuru INT NOT NULL IDENTITY(1,1) primary key,
-	DyzurOd DATETIME,
-	DyzurDo DATETIME,
-	IdPracownika Varchar(11),
-	CONSTRAINT IdPracownika FOREIGN KEY (IdPracownika) REFERENCES PRACOWNIK(PESEL)
+	dyzurOd DATETIME,
+	dyzurDo DATETIME,
+	IdPracownika INT,
+	CONSTRAINT IdPracownika FOREIGN KEY (IdPracownika) REFERENCES PRACOWNIK(IdPracownika)
 );
 
 CREATE TABLE RESTAURACJA(
@@ -46,9 +48,19 @@ CREATE TABLE RESTAURACJA(
 
 CREATE TABLE POTRAWA(
 	IdPotrawy INT NOT NULL IDENTITY(1,1) primary key,
-	IdRestauracji INT,
-	CONSTRAINT IdRestauracji FOREIGN KEY(IdRestauracji) REFERENCES RESTAURACJA (IdRestauracji)
+	NazwaPotrawy Varchar(60),
+	CzyGluten BIT
 );
+
+CREATE TABLE RESTAURACJA_POTRAWA(
+	IdRestauracjaPotrawa INT NOT NULL IDENTITY(1,1) primary key,
+	CenaPotrawy DECIMAL,
+	IdRestauracji INT,
+	IdPotrawy INT,
+	CONSTRAINT IdRestauracji1 FOREIGN KEY (IdRestauracji) REFERENCES RESTAURACJA(IdRestauracji),
+	CONSTRAINT IdPotrawy FOREIGN KEY (IdPotrawy) REFERENCES POTRAWA(IdPotrawy)
+);
+
 
 CREATE TABLE STATUS_KLIENTA(
 	IdStatusu INT NOT NULL IDENTITY(1,1) primary key,
@@ -104,3 +116,4 @@ CREATE TABLE REZERWACJA(
 	CONSTRAINT IdPokoju2 FOREIGN KEY (IdPokoju) REFERENCES POKOJ(IdPokoju),
 	CONSTRAINT IdHotelu5 FOREIGN KEY (IdHotelu) REFERENCES HOTEL(IdHotelu)
 );
+

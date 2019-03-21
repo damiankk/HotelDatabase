@@ -5,14 +5,14 @@ insert into STATUS_KLIENTA (IdStatusu, NazwaStayusu, ZnizkaProcentowa, CzyWliczo
 insert into STATUS_KLIENTA (IdStatusu, NazwaStayusu, ZnizkaProcentowa, CzyWliczoneSniadania) values (5, 'normalny', 0, false);
 insert into STATUS_KLIENTA (IdStatusu, NazwaStayusu, ZnizkaProcentowa, CzyWliczoneSniadania) values (6, 'normalny', 0, true);
 
-insert into KATEGORIA_POKOJU (IdKategorii, CzyJestŁazienka, CzyJestBalkon, NazwaKategorii, CzyJestLodowka, DwuosoboweLozko) values (1, true, true, 'diament', true, true);
-insert into KATEGORIA_POKOJU (IdKategorii, CzyJestŁazienka, CzyJestBalkon, NazwaKategorii, CzyJestLodowka, DwuosoboweLozko) values (2, true, true, 'diament', true, false);
-insert into KATEGORIA_POKOJU (IdKategorii, CzyJestŁazienka, CzyJestBalkon, NazwaKategorii, CzyJestLodowka, DwuosoboweLozko) values (3, true, true, 'złoto', false, true);
-insert into KATEGORIA_POKOJU (IdKategorii, CzyJestŁazienka, CzyJestBalkon, NazwaKategorii, CzyJestLodowka, DwuosoboweLozko) values (4, true, true, 'złoto', false, false);
-insert into KATEGORIA_POKOJU (IdKategorii, CzyJestŁazienka, CzyJestBalkon, NazwaKategorii, CzyJestLodowka, DwuosoboweLozko) values (5, true, false, 'srebro', false, true);
-insert into KATEGORIA_POKOJU (IdKategorii, CzyJestŁazienka, CzyJestBalkon, NazwaKategorii, CzyJestLodowka, DwuosoboweLozko) values (6, true, false, 'srebro', false, false);
-insert into KATEGORIA_POKOJU (IdKategorii, CzyJestŁazienka, CzyJestBalkon, NazwaKategorii, CzyJestLodowka, DwuosoboweLozko) values (7, false, false, 'zwykly', false, true);
-insert into KATEGORIA_POKOJU (IdKategorii, CzyJestŁazienka, CzyJestBalkon, NazwaKategorii, CzyJestLodowka, DwuosoboweLozko) values (8, false, false, 'zwykly', false, false);
+insert into KATEGORIA_POKOJU (IdKategorii, CzyJestŁazienka, CzyJestBalkon, NazwaKategorii, CzyJestLodowka, DwuosoboweLozko) values (1, false, false, 'zwykly', false, false);
+insert into KATEGORIA_POKOJU (IdKategorii, CzyJestŁazienka, CzyJestBalkon, NazwaKategorii, CzyJestLodowka, DwuosoboweLozko) values (2, false, false, 'zwykly', false, true);
+insert into KATEGORIA_POKOJU (IdKategorii, CzyJestŁazienka, CzyJestBalkon, NazwaKategorii, CzyJestLodowka, DwuosoboweLozko) values (3, true, false, 'srebro', false, false);
+insert into KATEGORIA_POKOJU (IdKategorii, CzyJestŁazienka, CzyJestBalkon, NazwaKategorii, CzyJestLodowka, DwuosoboweLozko) values (4, true, false, 'srebro', false, true);
+insert into KATEGORIA_POKOJU (IdKategorii, CzyJestŁazienka, CzyJestBalkon, NazwaKategorii, CzyJestLodowka, DwuosoboweLozko) values (5, true, true, 'złoto', false, false);
+insert into KATEGORIA_POKOJU (IdKategorii, CzyJestŁazienka, CzyJestBalkon, NazwaKategorii, CzyJestLodowka, DwuosoboweLozko) values (6, true, true, 'złoto', false, true);
+insert into KATEGORIA_POKOJU (IdKategorii, CzyJestŁazienka, CzyJestBalkon, NazwaKategorii, CzyJestLodowka, DwuosoboweLozko) values (7, true, true, 'diament', true, false);
+insert into KATEGORIA_POKOJU (IdKategorii, CzyJestŁazienka, CzyJestBalkon, NazwaKategorii, CzyJestLodowka, DwuosoboweLozko) values (8, true, true, 'diament', true, true);
 
 
 insert into Pokoj (IdPokoju, NumerPokoju, CzyZajęty, IdKategorii, Cena pokoju, IdHotelu, LiczbaOsób) values (1, 228, true, 3, 150, 12, 1);

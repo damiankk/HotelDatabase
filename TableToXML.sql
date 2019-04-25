@@ -1,0 +1,13 @@
+select * from Audyt for xml auto
+select * from DYZUR for xml auto
+select * from HOTEL for xml auto
+select * from KATEGORIA_POKOJU for xml auto
+select * from KLIENT for xml auto
+select * from POKOJ for xml auto
+select * from POTRAWA for xml auto
+select * from PRACOWNIK for xml auto
+select * from RESTAURACJA for xml auto
+select * from RESTAURACJA_POTRAWA for xml auto
+select * from REZERWACJA for xml auto
+select * from STANOWISKO for xml auto
+select * from STATUS_KLIENTA for xml auto

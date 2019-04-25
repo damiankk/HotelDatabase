@@ -1,0 +1,5 @@
+﻿<STANOWISKO IdStanowiska="1" NazwaStanowiska="Sprzatajacy" Pensja="3000" />
+<STANOWISKO IdStanowiska="2" NazwaStanowiska="Kierownik" Pensja="10000" />
+<STANOWISKO IdStanowiska="3" NazwaStanowiska="Recepcjonista" Pensja="4000" />
+<STANOWISKO IdStanowiska="4" NazwaStanowiska="Dyrektor" Pensja="15000" />
+<STANOWISKO IdStanowiska="5" NazwaStanowiska="Mechanik" Pensja="6000" />

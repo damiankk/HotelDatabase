@@ -1,0 +1,6 @@
+﻿<STATUS_KLIENTA IdStatusu="1" NazwaStatusu="vip" ZnizkaProcentowa="50" CzyWliczoneSniadania="1" />
+<STATUS_KLIENTA IdStatusu="2" NazwaStatusu="vip" ZnizkaProcentowa="50" CzyWliczoneSniadania="0" />
+<STATUS_KLIENTA IdStatusu="3" NazwaStatusu="ekskluzywny" ZnizkaProcentowa="25" CzyWliczoneSniadania="1" />
+<STATUS_KLIENTA IdStatusu="4" NazwaStatusu="ekskluzywny" ZnizkaProcentowa="25" CzyWliczoneSniadania="0" />
+<STATUS_KLIENTA IdStatusu="5" NazwaStatusu="normalny" ZnizkaProcentowa="0" CzyWliczoneSniadania="0" />
+<STATUS_KLIENTA IdStatusu="6" NazwaStatusu="normalny" ZnizkaProcentowa="0" CzyWliczoneSniadania="1" />

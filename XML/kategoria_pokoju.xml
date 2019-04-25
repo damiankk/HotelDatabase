@@ -1,0 +1,8 @@
+﻿<KATEGORIA_POKOJU IdKategorii="1" CzyJestLazienka="0" CzyJestBalkon="0" NazwaKategorii="zwykly" CzyJestLodowka="0" DwuosoboweLozko="0" />
+<KATEGORIA_POKOJU IdKategorii="2" CzyJestLazienka="0" CzyJestBalkon="0" NazwaKategorii="zwykly" CzyJestLodowka="0" DwuosoboweLozko="1" />
+<KATEGORIA_POKOJU IdKategorii="3" CzyJestLazienka="1" CzyJestBalkon="0" NazwaKategorii="srebro" CzyJestLodowka="0" DwuosoboweLozko="0" />
+<KATEGORIA_POKOJU IdKategorii="4" CzyJestLazienka="1" CzyJestBalkon="0" NazwaKategorii="srebro" CzyJestLodowka="0" DwuosoboweLozko="1" />
+<KATEGORIA_POKOJU IdKategorii="5" CzyJestLazienka="1" CzyJestBalkon="1" NazwaKategorii="zloto" CzyJestLodowka="0" DwuosoboweLozko="0" />
+<KATEGORIA_POKOJU IdKategorii="6" CzyJestLazienka="1" CzyJestBalkon="1" NazwaKategorii="zloto" CzyJestLodowka="0" DwuosoboweLozko="1" />
+<KATEGORIA_POKOJU IdKategorii="7" CzyJestLazienka="1" CzyJestBalkon="1" NazwaKategorii="diament" CzyJestLodowka="1" DwuosoboweLozko="0" />
+<KATEGORIA_POKOJU IdKategorii="8" CzyJestLazienka="1" CzyJestBalkon="1" NazwaKategorii="diament" CzyJestLodowka="1" DwuosoboweLozko="1" />
